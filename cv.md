@@ -31,7 +31,7 @@ I'm motivated individual with a strong desire to obtain my first job as a Fronte
 <details>
 <summary style="font-size:20px"><a href="https://github.com/MaksimGurbanow">My GitHub:</a></summary>
 
-### 1. [Tetris](https://maksimgurbanow.github.io/tetris/):
+<h3>1. <a href="https://maksimgurbanow.github.io/tetris/">Tetris</a></h3>
 Classical arcade game written in JavaScript. Click on title to play
 </details>
 
