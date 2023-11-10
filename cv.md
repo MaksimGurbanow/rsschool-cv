@@ -22,11 +22,30 @@ I'm motivated individual with a strong desire to obtain my first job as a Fronte
 6. Figma
 
 <details>
-<summary style="font-size:20px">Achievements</summary>
+<summary style="font-size:20px">Achievements:</summary>
+<h3 align="center"><a href="https://www.codewars.com/users/maksim72948/stats">CodeWars</a></h3>
+<img src="./images/codewars.png">
 
-<div>
-    <h3 align="center">CodeWars</h3>
-    <img src=>
-</div>
+</details>
 
+<details>
+<summary style="font-size:20px"><a href="https://github.com/MaksimGurbanow">My GitHub:</a></summary>
+
+### 1. [Tetris](https://maksimgurbanow.github.io/tetris/):
+Classical arcade game written in JavaScript. Click on title to play
+</details>
+
+<details>
+<summary style="font-size:20px">Courses:</summary>
+<img src="./images/courses.png">
+</details>
+
+
+<details>
+<summary style="font-size:20px">Languages:</summary>
+
+1. Russian - native
+2. English - upper-intermediate
+3. French - intermediate
+4. Turkish - elementary
 </details>
