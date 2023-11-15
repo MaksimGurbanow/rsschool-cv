@@ -49,3 +49,57 @@ Classical arcade game written in JavaScript. Click on title to play
 3. French - intermediate
 4. Turkish - elementary
 </details>
+
+<details>
+  <summary style="font-size:20px">Code examples:</summary>
+  
+  <br>
+
+  <p align="center">Binary Search</p>
+  
+  ```JavaScript
+  Array.prototype.binarySearch = function(item) {
+    let low = 0;
+    let high = this.length -1;
+    while(low <= high) {
+      const mid = Math.floor(low + high);
+      const guess = this[mid];
+      if(guess === item) {
+        return mid;   
+      }
+      else if(guess < item) {
+        low = mid + 1;
+      }
+      else {
+        high = mid - 1;
+      }
+    }
+    return -1;
+  }
+  ```
+
+  <br>
+
+  <p align="center">QuickSort</p>
+
+  ```JavaScript
+  Array.prototype.quickSort = function () {
+    if (this.length < 2) {
+        return this;
+    } else {
+        let strongPoint = this[0];
+        let less = [];
+        let more = [];
+
+        for (const element of this) {
+            if (element > strongPoint) {
+                  more.push(element);
+              } else if (element < strongPoint) { 
+                  less.push(element);
+              }
+          }
+        return [...less.quickSort(), strongPoint, ...more.quickSort()];
+      }
+  };
+  ```
+</details>
