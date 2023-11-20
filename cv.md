@@ -82,7 +82,7 @@ Classical arcade game written in JavaScript. Click on title to play
 
   <p align="center">QuickSort</p>
 
-  ```JavaScript
+  ```javascript
   Array.prototype.quickSort = function () {
     if (this.length < 2) {
         return this;
