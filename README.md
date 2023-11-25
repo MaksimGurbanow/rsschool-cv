@@ -1,2 +1,2 @@
-<a href="https://maksimgurbanow.github.io/rsschool-cv/cv">CV</a>
+<a href="https://maksimgurbanow.github.io/rsschool-cv/">CV</a>
 
