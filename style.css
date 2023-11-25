@@ -26,3 +26,39 @@ section > header {
     margin: 0 0 0 -25px;
 }
 
+a {
+    color: #50cfe6;
+}
+
+.achievements main>h3{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+
+code {
+    display: block;
+    white-space: pre-wrap;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    overflow-x: auto;
+    color: #000000;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+  }
+  
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #2b2929;
+      color: #ffffff;
+    }
+}
