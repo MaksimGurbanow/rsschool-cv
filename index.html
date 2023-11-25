@@ -118,13 +118,13 @@
                     Array.prototype.binarySearch = function(item) {
                         let low = 0;
                         let high = this.length -1;
-                        while(low <= high) {
+                        while(low &lt;= high) {
                           const mid = Math.floor(low + high);
                           const guess = this[mid];
                           if(guess === item) {
                             return mid;   
                           }
-                          else if(guess < item) {
+                          else if(guess &lt; item) {
                             low = mid + 1;
                           }
                           else {
@@ -141,7 +141,7 @@
             <code>
                 <pre>
                     Array.prototype.quickSort = function () {
-                        if (this.length < 2) {
+                        if (this.length &lt; 2) {
                             return this;
                         } else {
                             let strongPoint = this[0];
@@ -149,9 +149,9 @@
                             let more = [];
                       
                             for (const element of this) {
-                                if (element > strongPoint) {
+                                if (element &gt; strongPoint) {
                                       more.push(element);
-                                  } else if (element < strongPoint) {
+                                  } else if (element &lt; strongPoint) {
                                       less.push(element);
                                   }
                               }
