@@ -40,7 +40,6 @@ Classical arcade game written in JavaScript. Click on title to play
 <img src="./images/courses.png">
 </details>
 
-
 <details>
 <summary style="font-size:20px">Languages:</summary>
 
