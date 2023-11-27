@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    margin: auto;
     width: 100vw;
     overflow: auto;
 }
@@ -34,7 +34,7 @@ a {
     text-align: center;
 }
 
-img {
+section img {
     width: 100%;
 }
 
@@ -49,10 +49,23 @@ code {
     color: #000000;
 }
 
+.footer {
+
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
 @media (prefers-color-scheme: light) {
     body {
       background-color: #ffffff;
       color: #000000;
+    }
+    a{
+        color: #2b2929;
     }
   }
   
