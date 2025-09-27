@@ -1,8 +1,6 @@
-# GURBANOW MAKSIM
+# GURBANOW MAKSIM — Frontend developer  
 
-## Frontend developer
-
-## Contancts
+### Contacts
 
 - **Phone:** +905010696899
 - **E-mail:** maksim20051708@gmail.com
@@ -12,14 +10,16 @@
 
 I'm motivated individual with a strong desire to obtain my first job as a Frontend Developer. I have a big interest in creating user-friendly web interfaces, sites. My goal is to make a meaningful contribution in the world. I'm excited to bring my skills and creativity and obtain neccessary knowledge from team of experienced developers. Please, contact me, if I interested you.
 
-## My Skills:
+## 🛠 Skills: 
+- #### 💻 Frontend - TypeScript, JavaScript, HTML / CSS, React, Next.js, Redux Toolkit, Sass/Scss
 
-1. JavaScript, TypeScript
-2. HTML, CSS
-3. React
-4. NodeJS, PHP
-5. Git, GitHub
-6. Figma
+- #### ⚙️ Backend - Node.js, NestJS, Express.js, GraphQL, REST APIs
+
+- #### 🗄️ Databases - PostgreSQL, MySQL, MongoDB, Prisma ORM
+
+- #### ☁️ DevOps & Tools - Docker, Git & GitHub, CI/CD (GitHub Actions), Linux / Bash  
+
+- #### 🎨 Other - Responsive Design, Testing (Vitest, Jest, React Testing Library), Agile / Scrum, Chrome Extensions Development  
 
 <details>
 <summary style="font-size:20px">Achievements:</summary>
