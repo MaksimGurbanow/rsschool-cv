@@ -44,7 +44,6 @@ Expected Graduation: [Year]
 - Angular - [certificate](https://app.rs.school/certificate/968hfuw5)
 
 ## Work Experience
-
 **Frontend Developer — AppStruct**  
 *1 year*  
 
@@ -66,6 +65,7 @@ function curryPartial(func, ...args) {
     };
   }
 }
+
 ```
 
 ```JavaScript

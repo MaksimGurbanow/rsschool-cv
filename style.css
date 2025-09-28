@@ -69,7 +69,7 @@ code {
     border-radius: 4px;
     margin-bottom: 15px;
     overflow-x: auto;
-    color: #000000;
+    color: #000001;
 }
 
 .footer {
@@ -85,7 +85,7 @@ code {
 @media (prefers-color-scheme: light) {
     body {
       background-color: #ffffff;
-      color: #000000;
+      color: #000001;
     }
     a{
         color: #2b2929;
