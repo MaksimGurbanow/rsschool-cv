@@ -1,9 +1,13 @@
-# GURBANOW MAKSIM
+<header style="display: flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 20px;">
+  <div>
+    <h1 style="margin: 0;">Maksim Gurbanov</h1>
+    <h3 style="margin: 0;">Frontend Developer</h3>
+  </div>
+  <img src="./images/photo.jpg" alt="My photo" width="200" style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;" />
+</header>
 
-## Frontend developer
 
-## Contancts
-
+### Contacts
 - **Phone:** +905010696899
 - **E-mail:** maksim20051708@gmail.com
 - **Telegram:** @maksim_gurbanow
@@ -12,94 +16,70 @@
 
 I'm motivated individual with a strong desire to obtain my first job as a Frontend Developer. I have a big interest in creating user-friendly web interfaces, sites. My goal is to make a meaningful contribution in the world. I'm excited to bring my skills and creativity and obtain neccessary knowledge from team of experienced developers. Please, contact me, if I interested you.
 
-## My Skills:
+## 🛠 Skills: 
+- **💻 Frontend** - TypeScript, JavaScript, HTML / CSS, React, Next.js, Redux Toolkit, Sass/Scss
 
-1. JavaScript, TypeScript
-2. HTML, CSS
-3. React
-4. NodeJS, PHP
-5. Git, GitHub
-6. Figma
+- **⚙️ Backend** - Node.js, NestJS, Express.js, GraphQL, REST APIs
 
-<details>
-<summary style="font-size:20px">Achievements:</summary>
-<h3 align="center"><a href="https://www.codewars.com/users/maksim72948/stats">CodeWars</a></h3>
-<img src="./images/codewars.png">
+- **🗄️ Databases** - PostgreSQL, MySQL, MongoDB, Prisma ORM
 
-</details>
+- **☁️ DevOps & Tools** - Docker, Git & GitHub, CI/CD (GitHub Actions), Linux / Bash  
 
-<details>
-<summary style="font-size:20px"><a href="https://github.com/MaksimGurbanow">My GitHub:</a></summary>
+- **🎨 Other** - Responsive Design, Testing (Vitest, Jest, React Testing Library), Agile / Scrum, Chrome Extensions Development  
 
-<h3>1. <a href="https://maksimgurbanow.github.io/tetris/">Tetris</a></h3>
-Classical arcade game written in JavaScript. Click on title to play
-</details>
+- **Languages** - Russian(Native Speaker), English(C1), Turkish(C1), French(B1)
 
-<details>
-<summary style="font-size:20px">Courses:</summary>
-<img src="./images/courses.png">
-</details>
+## 🎓 Education
 
-<details>
-<summary style="font-size:20px">Languages:</summary>
+**Bachelor of Music**  
+*Cukurova University, Adana, Türkiye*  
+Expected Graduation: [Year]
 
-1. Russian - native
-2. English - upper-intermediate
-3. French - intermediate
-4. Turkish - elementary
-</details>
+**Courses** 
+- JavaScript/Frontend - [certificate](https://app.rs.school/certificate/7p3wu71q)
+- React - [certificate](https://app.rs.school/certificate/aa7h7he1)
+- AWS Fundmentals by RS School - [certificate](https://app.rs.school/certificate/ko5r1395)
+- AWS Cloud Developer by RS School - [certificate](https://app.rs.school/certificate/qw5kfi0y)
+- AWS Cloud Quest: Cloud Practitioner - [Training Badge](AWS Cloud Quest: Cloud Practitioner - Training Badge)
+- Angular - [certificate](https://app.rs.school/certificate/968hfuw5)
 
-<details>
-  <summary style="font-size:20px">Code examples:</summary>
-  
-  <br>
+## Work Experience
 
-  <p align="center">Binary Search</p>
-  
-  ```JavaScript
-  Array.prototype.binarySearch = function(item) {
-    let low = 0;
-    let high = this.length -1;
-    while(low <= high) {
-      const mid = Math.floor(low + high);
-      const guess = this[mid];
-      if(guess === item) {
-        return mid;   
-      }
-      else if(guess < item) {
-        low = mid + 1;
-      }
-      else {
-        high = mid - 1;
-      }
-    }
-    return -1;
-  }
-  ```
+**Frontend Developer — AppStruct**  
+*1 year*  
 
-  <br>
+- Developed a **no-code platform** aimed at businesses looking to create applications more easily and efficiently.  
+- Designed and implemented **user-friendly interfaces** to improve customer experience.  
+- Built and maintained reusable **React components** with TypeScript, ensuring scalability and consistency.  
+- Integrated APIs and optimized application performance for smooth functionality.  
+- Created a **Chrome extension** that allowed users to copy and extract structured elements directly from web pages, streamlining workflow.  
+- Collaborated with a team of developers and designers, gaining experience in **Agile methodology** and version control with **Git/GitHub**.  
 
-  <p align="center">QuickSort</p>
-
+## Code Examples:
 ```JavaScript
-Array.prototype.quickSort = function () {
-  if (this.length < 2) {
-      return this;
+function curryPartial(func, ...args) {
+  if (args.length >= func.length) {
+    return func(...args);
   } else {
-      let strongPoint = this[0];
-      let less = [];
-      let more = [];
-
-      for (const element of this) {
-          if (element > strongPoint) {
-                more.push(element);
-            } else if (element < strongPoint) {
-                less.push(element);
-            }
-        }
-      return [...less.quickSort(), strongPoint, ...more.quickSort()];
-    }
-};
+    return function(...nextArgs) {
+      return curryPartial(func, ...args, ...nextArgs);
+    };
+  }
+}
 ```
 
-</details>
+```JavaScript
+Array.prototype.map = function(callback, context) {
+  const arr = new Array(this.length);
+  for (let i = 0; i < this.length; i++) {
+    const c = this[i];
+    if (Object.prototype.hasOwnProperty.call(this, i)) {
+      const result = callback.call(context || this, c, i, this);
+      arr[i] = result;
+    } else {
+      arr[i] = c;
+    }
+  }
+  return arr;
+};
+```
