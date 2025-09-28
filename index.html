@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Maksim Gurbanov - CV</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me">About Me</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="#education">Education</a></li>
+            <li class="nav-item"><a href="#experience">Experience</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#code-examples">Code Examples</a></li>
+            <li class="nav-item"><a href="#links">Links</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div>
+            <h1 style="margin: 0;">Maksim Gurbanov</h1>
+            <h3 style="margin: 0;">Frontend Developer</h3>
+        </div>
+        <img src="./images/photo.jpg" alt="My photo" width="200"
+            style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;">
+    </header>
+
+    <main>
+
+        <section class="contacts" id="contacts">
+            <h2>📞 Contacts</h2>
+            <ul>
+                <li><b>Phone:</b> +905010696899</li>
+                <li><b>Email:</b> <a href="mailto:maksim20051708@gmail.com">maksim20051708@gmail.com</a></li>
+                <li><b>Telegram:</b> <a href="https://t.me/maksim_gurbanow">@maksim_gurbanow</a></li>
+                <li><a href="https://www.linkedin.com/in/maksim-gurbanov-671533282"><b>LinkedIn</b></a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="about-me" id="about-me">
+            <h2>👨‍💻 About Me</h2>
+            <p>
+                Motivated Frontend Developer with internship experience and a strong passion for creating user-friendly
+                web
+                interfaces and applications. Skilled in building responsive, intuitive solutions and eager to contribute
+                to
+                meaningful projects while continuously developing technical expertise. Committed to delivering
+                high-quality
+                work and collaborating effectively within a professional team.
+            </p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>🛠 Skills</h2>
+            <ul>
+                <li><b>💻 Frontend:</b> TypeScript, JavaScript, HTML / CSS, React, Next.js, Redux Toolkit, Sass/Scss
+                </li>
+                <li><b>⚙️ Backend:</b> Node.js, NestJS, Express.js, GraphQL, REST APIs</li>
+                <li><b>🗄️ Databases:</b> PostgreSQL, MySQL, MongoDB, Prisma ORM</li>
+                <li><b>☁️ DevOps & Tools:</b> Docker, Git & GitHub, CI/CD (GitHub Actions), Linux / Bash</li>
+                <li><b>🎨 Other:</b> Responsive Design, Testing (Vitest, Jest, React Testing Library), Agile / Scrum,
+                    Chrome
+                    Extensions Development</li>
+                <li><b>🌍 Languages:</b> Russian (Native), English (C1), Turkish (C1), French (B1)</li>
+            </ul>
+        </section>
+
+        <section class="education" id="education">
+            <h2>🎓 Education</h2>
+            <p><b>Bachelor of Music</b><br>
+                <i>Cukurova University, Adana, Türkiye</i><br>
+                Expected Graduation: [Year]
+            </p>
+
+            <h4>Courses & Certifications</h4>
+            <ul>
+                <li><a href="https://app.rs.school/certificate/7p3wu71q">JavaScript / Frontend</a></li>
+                <li><a href="https://app.rs.school/certificate/aa7h7he1">React</a></li>
+                <li><a href="https://app.rs.school/certificate/ko5r1395">AWS Fundamentals</a></li>
+                <li><a href="https://app.rs.school/certificate/qw5kfi0y">AWS Cloud Developer</a></li>
+                <li>AWS Cloud Quest: Cloud Practitioner — Training Badge</li>
+                <li><a href="./certificates/TR00224503645-18-05-2024-ETRF.pdf">English C1 - IELTS certificate</a></li>
+                <li><a href="https://app.rs.school/certificate/968hfuw5">Angular</a></li>
+            </ul>
+        </section>
+
+        <section class="experience" id="experience">
+            <h2>💼 Work Experience</h2>
+            <p><b>Frontend Developer — AppStruct</b> (1 year)</p>
+            <ul>
+                <li>Developed a <b>no-code platform</b> aimed at businesses creating applications easily.</li>
+                <li>Designed and implemented <b>user-friendly interfaces</b> to improve customer experience.</li>
+                <li>Built reusable <b>React components</b> with TypeScript, ensuring scalability.</li>
+                <li>Integrated APIs and optimized application performance.</li>
+                <li>Created a <b>Chrome extension</b> to copy and extract structured elements from web pages.</li>
+                <li>Collaborated with a team using <b>Agile methodology</b> and Git/GitHub.</li>
+            </ul>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>📂 Projects</h2>
+            <ul>
+                <li><a href="https://appstruct.cloud/"><b>Appstruct</b></a> - project that allows users to create their
+                    own application without knowing
+                    programming</li>
+                <li><a href="https://github.com/MaksimGurbanow/chess.git"><b>Chess Game</b></a> <a
+                        href="https://github.com/MaksimGurbanow/chessBackend"><b>(Backend Included)</b></a> - an online
+                    game where users can play with each other. In the
+                    development phase</li>
+                <li><a href="https://graphiql-msmnrt0r6-maksim-gurbanovs-projects.vercel.app/"><b>GraphiQL
+                            Client</b></a> - a Postman analogue</li>
+                <li><a href="https://maksimgurbanow.github.io/nonograms/dist/"><b>Nonograms</b></a> -
+                    a simple game</li>
+            </ul>
+        </section>
+
+        <section class="code-examples" id="code-examples">
+            <h2>💻 Code Examples</h2>
+            <pre><code>
+function curryPartial(func, ...args) {
+  if (args.length >= func.length) {
+    return func(...args);
+  } else {
+    return function(...nextArgs) {
+      return curryPartial(func, ...args, ...nextArgs);
+    };
+  }
+}
+    </code></pre>
+
+            <pre><code>
+Array.prototype.map = function(callback, context) {
+  const arr = new Array(this.length);
+  for (let i = 0; i &lt; this.length; i++) {
+    const c = this[i];
+    if (Object.prototype.hasOwnProperty.call(this, i)) {
+      const result = callback.call(context || this, c, i, this);
+      arr[i] = result;
+    } else {
+      arr[i] = c;
+    }
+  }
+  return arr;
+};
+    </code></pre>
+        </section>
+    </main>
+
+    <footer class="footer" id="links">
+        <h3>🔗 Links</h3>
+        <ul>
+            <li><a href="https://github.com/MaksimGurbanow">GitHub</a></li>
+            <li><a href="https://www.codewars.com/users/maksim72948/stats">CodeWars</a></li>
+            <li><a href="https://app.rs.school/"><img src="https://app.rs.school/static/images/logo-rsschool3.png"
+                        alt="course logo" width="100" height="30"></a></li>
+            <li>2025</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
